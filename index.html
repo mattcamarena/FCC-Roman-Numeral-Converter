@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<script src="script.js"></script>
+<style>
+h1  {text-align: center;}
+body {text-align:  center;}
+footer{
+	position:  absolute;
+	right:  0;
+	bottom:  0;
+}
+</style>
+<body>
+<header>
+	<h1>Roman Numeral Converter</h1>
+</header>	
+<input type="number" id="numBox" max = 3999 min = 1></textarea>
+<label>(1-3999)</label><br><br>
+<button onclick="startConvert()">Convert</button>
+<button onclick="clearText()">Clear</button><br>
+<label id="res"></label>
+
+<footer>
+<button onclick="window.location='https://mattcamarena.github.io/FCC-Palindrome-Checker/'">Previous</button>
+<button onclick="window.location='https://github.com/mattcamarena/FCC-Roman-Numeral-Converter'">Github</button>
+</footer>
+</body>
+</html>
